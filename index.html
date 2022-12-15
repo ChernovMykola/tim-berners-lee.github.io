@@ -3,87 +3,95 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
     <script src="https://kit.fontawesome.com/370a02bea8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   </head>
   <body>
-    <div class="nav">
-      <nav>
-        <div class="logo">
-          <img id="logo"src="img/MendelNewThistleLogo.png" alt="" >
+    <div class="head">
+      <div class="leftText">
+        <div class="brLogo">
+          <img class="logo"src="img/MendelNewThistleLogo.png" alt="">
         </div>
-        <div class="leftText">
+        <div class="navLink">
           <a href="#" class="navLink"><i class="fa-solid fa-bars"></i>Browse</a>
           <a href="#" class="navLink"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
           <a href="#" class="navLink">Dictionary</a>
           <a href="#" class="navLink">Quizzes</a>
           <a href="#" class="navLink">Money</a>
-
         </div>
-        <div class="rightText">
-          <button type="button" name="button" id="subs">Subscribe</button>
-          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-              Login
-              <span class="caret"></span>
-            </button>
-          </div>
+      </div>
+      <!-- <div class="rightText">
+        <div class="nuvBut">
+          <button type="button" class="subBtn" name="button">Subskribe</button>
         </div>
-      </nav>
+        <div class="dropdown">
+          <button  type="button" class="dropbtn" type="button">Login</button>
+        </div>
+      </div> -->
     </div>
     <div class="bigCont">
-      <div class="smallLink">
-        <a href="#" class="smallLinks">Home ></a>
-        <a href="#" class="smallLinks">Science ></a>
-        <a href="#" class="smallLinks">Mathematics</a>
+      <div class="smallLinks">
+        <a href="#" class="smallLink">Home ></a>
+        <a href="#" class="smallLink">Scince ></a>
+        <a href="#" class="smallLink">Mathematics</a>
       </div>
-      <div class="info">
-        <div class="title">
-          <h2>Tim Berners-Lee</h2>
-          <h4>British siensist</h4>
-        </div>
-        <div class="manyBut">
-          <button type="button" name="button" class="manyButt"><i class="fa-solid fa-print"></i>Print</button>
-          <button type="button" name="button" class="manyButt"><i class="fa-solid fa-check"></i>Cite</button>
-          <button type="button" name="button" class="manyButt"><i class="fa-solid fa-share-nodes"></i>Share</button>
-          <button type="button" name="button" class="manyButt"><i class="fa-solid fa-message"></i>Feedback</button>
-          <button type="button" name="button" class="manyButt"><i class="fa-solid fa-ellipsis-vertical"></i></button>
-        </div>
-      <div class="smallInfo">
-        <p>Alternet titles: Sir Tim Berners-Lee</p>
-        <p>By <a href="#">Michael Aaron Denice</a> ·Last Update:Dec 2 2022<a href="#">·Edit History</a> </p>
-      </div>
-      <div class="bigInfo">
-        <div class="textInfo">
-          <p id="textInform">Tim Berners-Lee, in full Sir Tim Berners-Lee, (born June 8, 1955, London, England), British computer scientist, generally credited as the inventor of the World Wide Web. In 2004 he was awarded a knighthood by Queen Elizabeth II of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) by the Finnish Technology Award Foundation.<br>Computing came naturally to Berners-Lee, as both of his parents worked on the Ferranti Mark I, the first commercial computer. (See computer: The first stored-program machines.) After graduating in 1976 from the University of Oxford, Berners-Lee designed computer software for two years at Plessey Telecommunications Ltd., located in Poole, Dorset, England. Following this, he had several positions in the computer industry, including a stint from June to December 1980 as a software engineering consultant at CERN, the European particle physics laboratory in Geneva.</p>
-        </div>
-        <div class="container">
-          <img id="Tim" src="img/British-scientist-Tim-Berners-Lee.webp" alt="">
-          <div class="allInfo">
-            <div class="name">
-              Tim Berners-Lee
+      <div class="infoCont">
+        <div class="allInfo">
+          <div class="names">
+            <h2>Tim Berners-Lee</h2>
+            <h4>Brirtish sciensist</h4>
+          </div>
+          <div class="icons">
+            <button type="button" name="button" class="icon"><i class="fa-solid fa-print"></i>Print</button>
+            <button type="button" name="button" class="icon"><i class="fa-solid fa-check"></i>Cite</button>
+            <button type="button" name="button" class="icon"><i class="fa-solid fa-share-nodes"></i>Share</button>
+            <button type="button" name="button" class="icon"><i class="fa-solid fa-message"></i>Feedback</button>
+            <button type="button" name="button" class="icon"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+          </div>
+          <div class="smallText">
+            <p class="littleText">Alternet titles: Sir Tim Berners-Lee</p>
+            <p class="biggerText">By <a href="#" class="textLink">Michael Aaron Denice</a> · Last Update:Dec 2 2022<a href="#"class="textLink">· Edit History</a> </p>
+          </div>
+          <div class="bigText">
+            <div class="firstP">
+              Tim Berners-Lee, in full Sir Tim Berners-Lee, (born June 8, 1955, London, England), British computer scientist, generally credited as the inventor of the World Wide Web. In 2004 he was awarded a knighthood by Queen Elizabeth II of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) by the Finnish Technology Award Foundation.
             </div>
-            <div class="centerInfo">
-              <a href="#">See all media</a>
-              <hr>
-            </div>
-            <div class="basicInfo">
-              <p>Born: June 8, 1955(age 67) ·<br><a href="#">London </a>·<a href="#"> England</a></p>
-              <p>Founder: <a href="#">World Wide Web Consortium</a></p>
-              <p>Inventions: <a href="#">World Wide Web</a> · <a href="#">World Wide Web</a></p>
-            </div>
-            <div class="relCont">
-              <button type="button" name="button" id="relCont">See all related content<i class="fa-solid fa-arrow-right"></i></button>
+            <div class="seconP">
+              Computing came naturally to Berners-Lee, as both of his parents worked on the Ferranti Mark I, the first commercial computer. (See computer: The first stored-program machines.) After graduating in 1976 from the University of Oxford, Berners-Lee designed computer software for two years at Plessey Telecommunications Ltd., located in Poole, Dorset, England. Following this, he had several positions in the computer industry, including a stint from June to December 1980 as a software engineering consultant at CERN, the European particle physics laboratory in Geneva.
             </div>
           </div>
-
         </div>
-
+        <div class="basicInfoSc">
+          <div class="bigImg">
+            <img class="image" src="img/British-scientist-Tim-Berners-Lee.webp" alt="">
+          </div>
+          <div class="allTextInfo">
+            <div class="smallName">
+              Tim Berners-Lee
+            </div>
+            <div class="mediaLinkSc">
+              <a href="#" class="mediaLink">See all media</a>
+            </div>
+            <hr class="line">
+            <div class="basicInfo">
+              <div class="born">
+                <p>Born: June 8, 1955(age 67) ·<br><a href="#" class="basicInfoLink">London </a>·<a href="#" class="basicInfoLink"> England</a></p>
+              </div>
+              <div class="founder">
+                <p>Founder: <a href="#" class="basicInfoLink">World Wide Web Consortium</a></p>
+              </div>
+              <div class="inventions">
+                <p>Inventions: <a href="#" class="basicInfoLink">World Wide Web</a> · <a href="#" class="basicInfoLink">World Wide Web</a></p>
+              </div>
+              <div class="seeAllLink">
+                <button type="button" name="button" class="seeAllCont">See all related content<i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+          </div>
       </div>
     </div>
-    </div>
-
   </body>
 </html>
